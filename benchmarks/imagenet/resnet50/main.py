@@ -228,7 +228,7 @@ def pretrain(
     num_classes: int, 
     knn_k: int, 
     knn_t: float,
-    skip_knn_eval: bool
+    skip_knn_eval: bool = None
 ) -> None:
     print_rank_zero(f"Running pretraining for {method}...")
 
